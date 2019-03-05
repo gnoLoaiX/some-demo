@@ -53,18 +53,11 @@
 <script src="jquery-1.12.4.js"></script>
 <script>
     $(function () {
-        // $(".wrap>ul>li").mouseenter(function () {
-        //     $(this).css("opacity", 1).siblings().css("opacity", "0.4");
-        // });
-        // $(".wrap").mouseleave(function () {
-        //     $(this).find("li").css("opacity", "1");
-        // });
-        
         $('.wrap li').mouseenter(function() {
             $(this).css('opacity', 1).siblings().css('opacity', 0.4)
         })
         $('.wrap').mouseleave(function() {
-            console.log($(this).css('opacity', 1))
+            $(this).find("li").css("opacity", "1");
         });
     });
 </script>
