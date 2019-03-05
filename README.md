@@ -1,7 +1,7 @@
 # some-demo
 记录我在学习前端过程中做过的小demo，练习用jQuery实现。
 
-[下拉菜单](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/01%20Drop-down%20menu.html)
+[下拉菜单](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/01%20Drop-down%20menu.html)<br>
 [突出展示](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/02%20Highlight.html)
 [初级手风琴](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/03%20shouFengQin.html)
 [淘宝精品](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/04%20taoBaohuXi.html)
