@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>五角星评分案例</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    
+    .comment {
+      font-size: 40px;
+      color: #ff16cf;
+    }
+    
+    .comment li {
+      float: left;
+    }
+    
+    ul {
+      list-style: none;
+    }
+  </style>  
+</head>
+<body>
+<ul class="comment">
+  <li>☆</li>
+  <li>☆</li>
+  <li>☆</li>
+  <li>☆</li>
+  <li>☆</li>
+</ul>
+</body>
+ <script src="jquery-1.12.4.js"></script>
+ <script type="text/javascript">
+   $(function (){
+    var wjx_k = "☆";
+    var wjx_s = "★";
+    $('.comment li').mouseenter(function() {
+      // 链式编程的时候不能脱离this去链式下去 使用end方法可以保持
+      $(this).text(wjx_s).prevAll().text(wjx_s).end().nextAll().text(wjx_k)
+    }).mouseleave(function(event) {
+      // 不是让某个li变成空心 而是让所有的
+      $('.comment').children().text(wjx_k)
+      // 再做一件事情 如果点了某一个 离开时就不应该全部变成空心了 如果没有点击就不去执行这行代码
+      $('li.current').text(wjx_s).prevAll().text(wjx_s)
+    }).on('click', function () {
+      $(this).addClass('current').siblings().removeClass('current')
+    })
+   })
+ </script>
+</html>
