@@ -16,6 +16,6 @@
 [表格增删功能](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/13%20%E8%A1%A8%E6%A0%BC%E5%A2%9E%E5%88%A0%E5%8A%9F%E8%83%BD.html)<br>
 [仿腾讯固定菜单栏](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/14%20%E4%BB%BF%E8%85%BE%E8%AE%AF%E5%9B%BA%E5%AE%9A%E8%8F%9C%E5%8D%95%E6%A0%8F.html)<br>
 [点击回到顶部](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/15%20%E5%B0%8F%E7%81%AB%E7%AE%AD%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8.html)<br>
-[增加了按键的音乐导航](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/16%20Music%20navigation%20advance.html)<br>
+[增加了按键的音乐导航](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/16%20Music%20navigation%20advance.html)  小星星曲谱1 1 5 5 6 6 5 -4 4 3 3 2 2 1<br>
 [点击评分](http://htmlpreview.github.io/?https://github.com/gnoLoaiX/some-demo/blob/master/17%20%E4%BA%94%E6%98%9F%E8%AF%84%E5%88%86.html)
 
